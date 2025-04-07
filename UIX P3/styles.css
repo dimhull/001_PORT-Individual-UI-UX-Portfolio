@@ -1,0 +1,43 @@
+.room-map {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    z-index: 100;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.green-dot { background-color: #10B981; }
+.red-dot { background-color: #EF4444; }
+
+.login-container {
+    background: linear-gradient(135deg, #6B7280 0%, #4B5563 100%);
+}
+
+.dashboard-card {
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  .dashboard-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
